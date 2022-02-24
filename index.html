@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Sliders</title>
+    <link rel="stylesheet" href="./resources/css/style.css">
+    
+    <script src="https://kit.fontawesome.com/0927c82d17.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="slider-container">
+        <div class="left-slide">
+            <div style="background-color: gold;">
+                <h1>Golden Rays</h1>
+                <p>Wyoming, USA</p>
+            </div>
+
+            <div style="background-color: seagreen;">
+                <h1>Amazon Green Water</h1>
+                <p>Brazil</p>
+            </div>
+
+            <div style="background-color: skyblue;">
+                <h1>Blue Mountain</h1>
+                <p>Finland</p>
+            </div>
+
+            <div style="background-color: rgb(231, 83, 29);">
+                <h1>Orange Valley</h1>
+                <p>Phoenix, Arizona</p>
+            </div>
+        </div>
+<!-- The 4 colors above needs be pair with the images down below but backwards. Example: 1.Gold 2.green 3.blue 4.orange but 1.Gold will not be tagged with donw below first background image. First background image is tagged to the last color aka 4.Orange. 3.Blue is tag with 2.background. This is because the way we have one slide goes up and one goes down. That is the reason. -->
+
+        <div class="right-slide">
+            <div style="background-image: url('./resources/images/orangered.jpg');"></div>
+
+            <div style="background-image: url(./resources/images/skyblue.jpg);"></div>
+
+            <div style="background-image:url(./resources/images/seagreennature.jpg);"></div>
+
+            <div style="background-image:url(./resources/images/goldnature.jpg);"></div> 
+        </div>
+
+        
+        <div class="action-button">
+            <button class="down-button">
+                <i class="fa-solid fa-arrow-down"></i>
+            </button>
+            <button class="up-button">
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+        </div>
+    </div>
+    <script src="./resources/js/script.js"></script>
+</body>
+</html>
